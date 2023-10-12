@@ -60,7 +60,7 @@
         </prevStation>
         <transferTo/>
     </station>
-    <station id="6">
+    <station id="6" someAttribute="test">
         <name>Наукова</name>
         <line>Олексіївська лінія</line>
         <city>Харків</city>
