@@ -1,0 +1,47 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://shdwrazedev.com/metro"
+           xmlns="http://shdwrazedev.com/metro"
+           elementFormDefault="qualified">
+
+    <xs:element name="metro">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="station" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="line" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                            <xs:element name="city" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:int" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:simpleType name="stationName">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z0-9-]+"/>
+            <xs:minLength value="3"/>
+            <xs:maxLength value="255"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="stationLine">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Oleksiivska"/>
+            <xs:enumeration value="Saltivska"/>
+            <xs:enumeration value="Kholodnohirsko-Zavodska"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="stationCity">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z]+"/>
+            <xs:minLength value="3"/>
+            <xs:maxLength value="255"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

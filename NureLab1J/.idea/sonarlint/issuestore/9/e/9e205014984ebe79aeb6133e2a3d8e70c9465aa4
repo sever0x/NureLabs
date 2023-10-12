@@ -1,0 +1,9 @@
+
+0
+java:S1220""Move this file to a named package.
+P
+java:S2755"3Disable access to external entities in XML parsing.(î³ĞÈ8ÎüÚ£²1
+G	java:S106"+Replace this use of System.out by a logger.(ü”¶³8ßüÚ£²1
+L	java:S106"+Replace this use of System.out by a logger.(øç¢ıÿÿÿÿ8áüÚ£²1
+F	java:S106"+Replace this use of System.out by a logger.(›’Œ[8âüÚ£²1
+L	java:S106"+Replace this use of System.out by a logger.(åŒ÷Ïøÿÿÿÿ8äüÚ£²1
