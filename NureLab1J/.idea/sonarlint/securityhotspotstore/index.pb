@@ -5,12 +5,6 @@ S
 #src/main/java/AgainstValidator.java,e\1\e12c37fd81a5afcbfa81c1fa8c6c813f12e19795
 O
 src/main/java/XSLTransform.java,9\e\9e205014984ebe79aeb6133e2a3d8e70c9465aa4
-=
-xml/metro.xsl,a\d\ad89e59904d5792a46c281fdc2d98c7035fabe03
-=
-xml/metro.xsd,b\c\bcba23ef4276df5cb8aa52a0c72dacb545fe5392
-=
-xml/metro.xml,8\9\897fecb7bc44bba00a45f6f119f2343389e7cb37
 A
 xml/metro_upd.xml,8\c\8c02268e3bd4a67b261228db50af0ed619e98c4b
 P

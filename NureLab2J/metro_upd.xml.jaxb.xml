@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metro xmlns="http://shdwrazedev.com/metro_upd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://shdwrazedev.com/metro_upd metro_upd.xsd">
+    <station id="1">
+        <name>Південний вокзал</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Центральний ринок</name>
+        </nextStation>
+        <prevStation>
+            <name>Холодна гора</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="2">
+        <name>Індустріальна</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation/>
+        <prevStation>
+            <name>Тракторний завод</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="3">
+        <name>Захисників України</name>
+        <line>Олексіївська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Метробудівників</name>
+        </nextStation>
+        <prevStation>
+            <name>Архітектора Бекетова</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="4">
+        <name>Архітектора Бекетова</name>
+        <line>Олексіївська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Захисників України</name>
+        </nextStation>
+        <prevStation>
+            <name>Держпром</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="5">
+        <name>23 Серпня</name>
+        <line>Олексіївська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Ботанічний сад</name>
+        </nextStation>
+        <prevStation>
+            <name>Олексіївська</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="6" someAttribute="test">
+        <name>Наукова</name>
+        <line>Олексіївська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Держпром</name>
+        </nextStation>
+        <prevStation>
+            <name>Ботанічний сад</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="7">
+        <name>Метробудівників</name>
+        <line>Олексіївська лінія</line>
+        <city>Харків</city>
+        <nextStation/>
+        <prevStation>
+            <name>Захисників України</name>
+        </prevStation>
+        <transferTo>
+            <name>Спортивна</name>
+        </transferTo>
+    </station>
+    <station id="8">
+        <name>Студентська</name>
+        <line>Салтівська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Героїв Праці</name>
+        </nextStation>
+        <prevStation>
+            <name>Академіка Павлова</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="9">
+        <name>Турбоатом</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Палац Спорту</name>
+        </nextStation>
+        <prevStation>
+            <name>Завод імені Малишева</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="10">
+        <name>Тракторний завод</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Індустріальна</name>
+        </nextStation>
+        <prevStation>
+            <name>Імені О. С. Масельского</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="11">
+        <name>Імені О. С. Масельского</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Тракторний завод</name>
+        </nextStation>
+        <prevStation>
+            <name>Армійська</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="12">
+        <name>Перемога</name>
+        <line>Олексіївська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Олексіївська</name>
+        </nextStation>
+        <prevStation/>
+        <transferTo/>
+    </station>
+    <station id="13">
+        <name>Держпром</name>
+        <line>Олексіївська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Архітектора Бекетова</name>
+        </nextStation>
+        <prevStation>
+            <name>Наукова</name>
+        </prevStation>
+        <transferTo>
+            <name>Університет</name>
+        </transferTo>
+    </station>
+    <station id="14">
+        <name>Ботанічний сад</name>
+        <line>Олексіївська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Наукова</name>
+        </nextStation>
+        <prevStation>
+            <name>23 Серпня</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="15">
+        <name>Київська</name>
+        <line>Салтівська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Академіка Барабашова</name>
+        </nextStation>
+        <prevStation>
+            <name>Пушкінська</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="16">
+        <name>Холодна гора</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Південний вокзал</name>
+        </nextStation>
+        <prevStation/>
+        <transferTo/>
+    </station>
+    <station id="17">
+        <name>Завод імені Малишева</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Турбоатом</name>
+        </nextStation>
+        <prevStation>
+            <name>Спортивна</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="18">
+        <name>Проспект Гагаріна</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Спортивна</name>
+        </nextStation>
+        <prevStation>
+            <name>Майдан конституції</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="19">
+        <name>Армійська</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Імені О. С. Масельского</name>
+        </nextStation>
+        <prevStation>
+            <name>Палац Спорту</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="20">
+        <name>Академіка Барабашова</name>
+        <line>Салтівська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Академіка Павлова</name>
+        </nextStation>
+        <prevStation>
+            <name>Київська</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="21">
+        <name>Майдан конституції</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Проспект Гагаріна</name>
+        </nextStation>
+        <prevStation>
+            <name>Центральний ринок</name>
+        </prevStation>
+        <transferTo>
+            <name>Історичний музей</name>
+        </transferTo>
+    </station>
+    <station id="22">
+        <name>Центральний ринок</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Майдан конституції</name>
+        </nextStation>
+        <prevStation>
+            <name>Південний вокзал</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="23">
+        <name>Палац Спорту</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Армійська</name>
+        </nextStation>
+        <prevStation>
+            <name>Турбоатом</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="24">
+        <name>Героїв Праці</name>
+        <line>Салтівська лінія</line>
+        <city>Харків</city>
+        <nextStation/>
+        <prevStation>
+            <name>Студентська</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="25">
+        <name>Університет</name>
+        <line>Салтівська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Пушкінська</name>
+        </nextStation>
+        <prevStation>
+            <name>Історичний музей</name>
+        </prevStation>
+        <transferTo>
+            <name>Держпром</name>
+        </transferTo>
+    </station>
+    <station id="26">
+        <name>Олексіївська</name>
+        <line>Олексіївська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>23 Серпня</name>
+        </nextStation>
+        <prevStation>
+            <name>Перемога</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="27">
+        <name>Пушкінська</name>
+        <line>Салтівська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Київська</name>
+        </nextStation>
+        <prevStation>
+            <name>Університет</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="28">
+        <name>Академіка Павлова</name>
+        <line>Салтівська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Студентська</name>
+        </nextStation>
+        <prevStation>
+            <name>Академіка Барабашова</name>
+        </prevStation>
+        <transferTo/>
+    </station>
+    <station id="29">
+        <name>Спортивна</name>
+        <line>Холодногірсько-заводська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Завод імені Малишева</name>
+        </nextStation>
+        <prevStation>
+            <name>Проспект Гагаріна</name>
+        </prevStation>
+        <transferTo>
+            <name>Метробудівників</name>
+        </transferTo>
+    </station>
+    <station id="30">
+        <name>Історичний музей</name>
+        <line>Салтівська лінія</line>
+        <city>Харків</city>
+        <nextStation>
+            <name>Університет</name>
+        </nextStation>
+        <prevStation/>
+        <transferTo>
+            <name>Майдан конституції</name>
+        </transferTo>
+    </station>
+</metro>
