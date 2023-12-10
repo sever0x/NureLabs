@@ -46,24 +46,6 @@ public class SAXParser extends DefaultHandler {
 
     public List<Metro.Station> parse(InputStream in, Schema schema) throws ParserConfigurationException, SAXException, IOException {
 
-        /**
-         * SAXParserFactory factory = SAXParserFactory.newInstance();
-         *
-         * // to be compliant, completely disable DOCTYPE declaration:
-         * factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
-         *
-         * // or completely disable external entities declarations:
-         * factory.setFeature("http://xml.org/sax/features/external-general-entities", false);
-         * factory.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
-         *
-         * // or prohibit the use of all protocols by external entities:
-         * SAXParser parser = factory.newSAXParser(); // Noncompliant
-         * parser.setProperty(XMLConstants.ACCESS_EXTERNAL_DTD, "");
-         * parser.setProperty(XMLConstants.ACCESS_EXTERNAL_SCHEMA, "");
-         *
-         */
-        // XML parsers should not be vulnerable to XXE attacks
-        // Fix by yourself
         SAXParserFactory factory = SAXParserFactory.newInstance();
         factory.setNamespaceAware(true);
         factory.setSchema(schema);
