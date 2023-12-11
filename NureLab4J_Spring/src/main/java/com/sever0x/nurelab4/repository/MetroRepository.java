@@ -1,11 +1,9 @@
 package com.sever0x.nurelab4.repository;
 
 import com.sever0x.nurelab4.model.Station;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public interface MetroRepository {
 
     List<Station> findAll();
