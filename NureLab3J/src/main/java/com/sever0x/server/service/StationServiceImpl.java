@@ -11,10 +11,7 @@ import java.util.List;
 
 //@HandlerChain(file = "security_handler.xml")
 @WebService(
-//        serviceName = "Stations",
-//        portName = "StationPort",
         endpointInterface = "com.sever0x.server.service.StationService"
-//        targetNamespace = Const.SERVICE_NS
 )
 public class StationServiceImpl implements StationService {
 

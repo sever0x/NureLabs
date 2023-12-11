@@ -1,0 +1,9 @@
+
+7
+java:S1220""Move this file to a named package.8Òã‡Å1
+e
+java:S1854k"IRemove this useless assignment to local variable "deleteStationResponse".(‚ÿ²{8ä‡Å1
+V
+java:S1481k":Remove this unused "deleteStationResponse" local variable.(‚ÿ²{8ä‡Å1
+R
+java:S1068"0Remove this unused "CLIENT_TOKEN" private field.(¬ÚÌÖüÿÿÿÿ8“ä‡Å1

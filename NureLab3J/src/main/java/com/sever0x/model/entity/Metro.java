@@ -44,7 +44,6 @@ public class Metro {
     public static class Station {
         public Station() {
         }
-
         public Station(String name, String line, String city, NextStation nextStation, PrevStation prevStation, TransferTo transferTo, int id, String someAttribute) {
             this.name = name;
             this.line = line;
