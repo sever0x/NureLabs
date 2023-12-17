@@ -18,5 +18,11 @@ public interface MetroRepository {
 
     Station updateStation(int id, Station station);
 
+    List<String> getAllCities();
+
+    List<String> getAllLines();
+
+    List<Station> findByCityAndLine(String city, String line);
+
     void deleteStation(int id);
 }

@@ -37,6 +37,18 @@ public class MetroService {
         return metroRepository.updateStation(id, station);
     }
 
+    public List<String> getAllCities() {
+        return metroRepository.getAllCities();
+    }
+
+    public List<String> getAllLines() {
+        return metroRepository.getAllLines();
+    }
+
+    public List<Station> getByCityAndLine(String city, String line) {
+        return metroRepository.findByCityAndLine(city, line);
+    }
+
     public void deleteStation(int id) {
         metroRepository.deleteStation(id);
     }

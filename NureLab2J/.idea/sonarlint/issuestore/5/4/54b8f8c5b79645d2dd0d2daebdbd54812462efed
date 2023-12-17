@@ -1,17 +1,3 @@
 
 ‡
 java:S1192"eDefine a constant instead of duplicating this literal "====================================" 8 times.(ÍÆÕùÿÿÿÿ8Ğ°äÖ¸1
-L	java:S106"+Replace this use of System.err by a logger.(ÍÆÕùÿÿÿÿ8ú°äÖ¸1
-G	java:S106"+Replace this use of System.err by a logger.(òÕº¾8û°äÖ¸1
-L	java:S106"+Replace this use of System.err by a logger.(ÍÆÕùÿÿÿÿ8û°äÖ¸1
-L	java:S1060"+Replace this use of System.err by a logger.(ÍÆÕùÿÿÿÿ8€±äÖ¸1
-G	java:S1061"+Replace this use of System.err by a logger.(òÕº¾8€±äÖ¸1
-L	java:S1062"+Replace this use of System.err by a logger.(ÍÆÕùÿÿÿÿ8±äÖ¸1
-G	java:S106="+Replace this use of System.out by a logger.(Ôäÿ’8ƒ±äÖ¸1
-G	java:S106A"+Replace this use of System.out by a logger.(—äÒ8„±äÖ¸1
-F	java:S106B"+Replace this use of System.out by a logger.(¯¦´C8…±äÖ¸1
-G	java:S106C"+Replace this use of System.out by a logger.(—äÒ8…±äÖ¸1
-L	java:S106H"+Replace this use of System.err by a logger.(ÍÆÕùÿÿÿÿ8†±äÖ¸1
-L	java:S106I"+Replace this use of System.err by a logger.(›–¤Æøÿÿÿÿ8‡±äÖ¸1
-L	java:S106J"+Replace this use of System.err by a logger.(ë«°÷úÿÿÿÿ8‡±äÖ¸1
-L	java:S106K"+Replace this use of System.err by a logger.(ÍÆÕùÿÿÿÿ8‡±äÖ¸1

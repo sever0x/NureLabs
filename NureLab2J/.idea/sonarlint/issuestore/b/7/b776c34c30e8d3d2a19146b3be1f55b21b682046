@@ -3,12 +3,3 @@
 java:S1192‡"eDefine a constant instead of duplicating this literal "====================================" 4 times.(—äÒ8¹èß×¸1
 U
 java:S27551"3Disable access to external entities in XML parsing.(ÂÿÕ‹ÿÿÿÿÿ8–ö…Ú¸1
-G	java:S106"+Replace this use of System.out by a logger.(Ú“Üİ8Ìèß×¸1
-L	java:S106,"+Replace this use of System.err by a logger.(ïù¯¯ûÿÿÿÿ8Îèß×¸1
-H	java:S106ƒ"+Replace this use of System.out by a logger.(ìšóê8æèß×¸1
-H	java:S106‡"+Replace this use of System.out by a logger.(—äÒ8èèß×¸1
-M	java:S106ˆ"+Replace this use of System.out by a logger.(´ùÿÿÿÿ8èèß×¸1
-H	java:S106‰"+Replace this use of System.out by a logger.(—äÒ8éèß×¸1
-H	java:S106Œ"+Replace this use of System.out by a logger.(—äÒ8ëèß×¸1
-M	java:S106"+Replace this use of System.out by a logger.(¼Å—ßûÿÿÿÿ8ëèß×¸1
-H	java:S106"+Replace this use of System.out by a logger.(—äÒ8ìèß×¸1

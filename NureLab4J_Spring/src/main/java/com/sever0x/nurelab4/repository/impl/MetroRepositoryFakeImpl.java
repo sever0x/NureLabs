@@ -87,6 +87,39 @@ public class MetroRepositoryFakeImpl implements MetroRepository {
     }
 
     @Override
+    public List<String> getAllCities() {
+        List<String> cities = new ArrayList<>();
+        for (Station station : stationsMap.values()) {
+            if (!cities.contains(station.getCity())) {
+                cities.add(station.getCity());
+            }
+        }
+        return cities;
+    }
+
+    @Override
+    public List<String> getAllLines() {
+        List<String> lines = new ArrayList<>();
+        for (Station station : stationsMap.values()) {
+            if (!lines.contains(station.getLine())) {
+                lines.add(station.getLine());
+            }
+        }
+        return lines;
+    }
+
+    @Override
+    public List<Station> findByCityAndLine(String city, String line) {
+        List<Station> result = new ArrayList<>();
+        for (Station station : stationsMap.values()) {
+            if (city.equalsIgnoreCase(station.getCity()) && line.equalsIgnoreCase(station.getLine())) {
+                result.add(station);
+            }
+        }
+        return result;
+    }
+
+    @Override
     public void deleteStation(int id) {
         if (stationsMap.containsKey(id)) {
             stationsMap.remove(id);
